@@ -33,8 +33,19 @@ java Main<br/>
 
 
 ## Screenshots:
-Sheet 1:
+Sheet 1: <br/>
+<img width="569" alt="sheet1" src="https://user-images.githubusercontent.com/91585538/144775667-e6014a3d-225a-491d-9713-2814b0d5e7cb.png">
 
+<img width="346" alt="sheet1_o" src="https://user-images.githubusercontent.com/91585538/144775753-0d130aef-ca19-4025-ba54-04d28beb2cf1.png">
 
+<br/>Sheet 2: <br/>
+<img width="571" alt="sheet2" src="https://user-images.githubusercontent.com/91585538/144775826-82869a24-a806-46cf-892b-9c2f838a7e1e.png">
+
+<img width="539" alt="sheet2_o" src="https://user-images.githubusercontent.com/91585538/144775846-61b6c79a-b0e9-459f-a88c-238e54de9025.png">
+
+<br/>Sheet 3: <br/>
+<img width="572" alt="sheet3" src="https://user-images.githubusercontent.com/91585538/144775874-30f1dcb2-e9f0-42b8-bc58-ec034be790d0.png">
+
+<img width="342" alt="Screen Shot 2021-12-05 at 5 15 54 PM" src="https://user-images.githubusercontent.com/91585538/144775890-9531f404-ee6d-4b30-afdd-c4d6aca67f01.png">
 
 
