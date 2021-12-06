@@ -20,14 +20,21 @@ java Main<br/>
 - Please look for StaticDB class in Class diagram.
 
 2. Factory Method:
-- The pattern used to handle different types output file. The program can generate two types of output file – 
-- - a) When order is processed successfully
-- - b) When there’s an error
+- The pattern used to handle different types output file. The program can generate two types of output file – a) When order is processed successfully   b) When there’s an error
 -	Factory Method is used to create respective object based on successful order processing or error.
--	Participants:
-1 -	Creator – InputOutput Class
-2 -	Product – Output Interface
-3 -	Concrete Products – ErrorOutput and OrderTotalOutput
-(The classes ErrorOutput and OrderTotalOutput implements Output Interface)
+-	Participants: <br/>
+1 -	Creator – InputOutput Class <br/>
+2 -	Product – Output Interface <br/>
+3 -	Concrete Products – ErrorOutput and OrderTotalOutput <br/>
+(The classes ErrorOutput and OrderTotalOutput implements Output Interface) <br/>
+
+## Class Diagram
+<img width="835" alt="Screen Shot 2021-12-05 at 2 13 55 PM" src="https://user-images.githubusercontent.com/91585538/144775198-61f78a7e-0fa5-4d76-bcf5-af8177f078a8.png">
+
+
+## Screenshots:
+Sheet 1:
+
+
 
 
