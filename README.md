@@ -1,9 +1,10 @@
 # individual-project-nidhi-tholar
 
 ## Instructions to run the project :
+(Route to 'src' directory of the repo)
 individual-project-nidhi-tholar >> cd src  <br/>
-javac Main.java <br/>
-java Main<br/>
+src >> javac Main.java <br/>
+src >> java Main<br/>
 
 •	The program will ask you Enter the following:
 1.	File path of Inventory File: (enter absolute file path)
