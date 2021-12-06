@@ -11,7 +11,9 @@ java Main<br/>
 3.	File path of Order file <br/>
 (Please refer screenshots below)
 
-•	The output files will be written to output_files folder of the project (individual-project-nidhi-tholar/output_files)
+•	The output files will be written to parent path of the 'Order file path' in the format "output_014738776__RandomInt_.csv" or "error_014738776__RandomInt_.csv" <br/> <br/>
+For ex: If path of order file is: "nidhi/project/order.csv" <br/>
+Output file path will be: "nidhi/project/output_014738776__5555_.csv"
 
 ## Design patterns used:
 1. Singleton Pattern:
