@@ -15,7 +15,7 @@ public class OrderTotalOutput implements Output{
         Path path_ = Paths.get(path);
 
         System.out.println("\nOrder Processed! Check the file in folder 'output_files' for Order Total!");
-        FileWriter fileWriter = new FileWriter(path_.getParent() + "/output_014738776/orderTotal_" + rand.nextInt() + "_.csv");
+        FileWriter fileWriter = new FileWriter(path_.getParent() + "/orderTotal_014738776__" + rand.nextInt() + "_.csv");
         fileWriter.write("Amt Paid\n");
         fileWriter.append(String.valueOf(orderTotal));
         fileWriter.close();
