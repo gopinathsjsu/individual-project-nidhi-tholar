@@ -30,13 +30,13 @@ public class InputOutput {
         return this.fileData;
     }
 
-    public void writeOutputCsv(String message, boolean isOrderProcessed) throws IOException {
+    public void writeOutputCsv(String message, boolean isOrderProcessed, String path) throws IOException {
         if (isOrderProcessed){
             output = new OrderTotalOutput();
         }else {
             output = new ErrorOutput();
         }
-        output.writeToCSV(message);
+        output.writeToCSV(message, path);
     }
 }
 

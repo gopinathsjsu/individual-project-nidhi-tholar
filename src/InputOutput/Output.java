@@ -4,5 +4,5 @@ import java.io.IOException;
 
 public interface Output {
 
-    abstract void writeToCSV(String message) throws IOException;
+    abstract void writeToCSV(String message, String path) throws IOException;
 }

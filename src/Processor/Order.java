@@ -44,13 +44,14 @@ public class Order {
 
             // Check if quant > cap
             if (count + orderQuantity > catCap){
-                inputOutput.writeOutputCsv("Sorry! You have exceeded the cap for category "+ categoryOfItem + ". The cap is " + catCap +". Please correct quantities!!", false);
+                inputOutput.writeOutputCsv("Sorry! You have exceeded the cap for category "+ categoryOfItem + ". The cap is " + catCap +". Please correct quantities!!", false, path);
                 return;
             }
 
             // check if quant > availableQ
             else if (availableQuantityOfItem <  orderQuantity){
-                inputOutput.writeOutputCsv(" Please correct quantities! The required Quantity " + orderQuantity + " of " + item + " exceeded the available quantity " + availableQuantityOfItem, false);
+                inputOutput.writeOutputCsv(" Please correct quantities! The required Quantity " + orderQuantity + " of " + item + " exceeded the available quantity " + availableQuantityOfItem,
+                        false, path);
                 return;
             }
 
@@ -60,7 +61,7 @@ public class Order {
                 staticDb.getInventoryItemsDict().get(item).updateAvailableQuantity(orderQuantity);
             }
         }
-        inputOutput.writeOutputCsv(String.valueOf(orderTotal), true);
+        inputOutput.writeOutputCsv(String.valueOf(orderTotal), true, path);
 
         //add card to DB
         staticDb.getCards().add(card);
