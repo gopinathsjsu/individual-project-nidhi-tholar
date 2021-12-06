@@ -15,7 +15,7 @@ public class ErrorOutput implements Output{
         Path path_ = Paths.get(path);
 
         System.out.println("\nAn error occurred! Check the file in folder 'output_files' for more information!");
-        FileWriter fileWriter = new FileWriter( path_.getParent() + "/error_" + rand.nextInt()  + "_.csv");
+        FileWriter fileWriter = new FileWriter( path_.getParent() + "/output_014738776/error_" + rand.nextInt()  + "_.csv");
         fileWriter.write("Error\n");
         fileWriter.append(errorMessage);
         fileWriter.close();
